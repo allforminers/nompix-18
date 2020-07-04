@@ -46,9 +46,9 @@ ______________________________________________________
 OLD VERSION NOMPIX11 u16
 ______________________________________________________
 
-sudo apt install npm
+sudo apt install npm -y
 
-sudo npm install posix
+sudo npm install posix -y
 
 curl https://raw.githubusercontent.com/creationix/nvm/v0.16.1/install.sh | sh
 
