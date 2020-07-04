@@ -16,10 +16,9 @@ paste this *************
 
 cd nomp
 
-patch -p1 < nomp_x11_stratum_patch.diff
-
 npm update
 
+patch -p1 < nomp_x11_stratum_patch.diff
 
 after
 
