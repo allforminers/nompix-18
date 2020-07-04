@@ -16,6 +16,8 @@ paste this *************
 
 cd nomp
 
+apt install npm -y
+
 npm update
 
 patch -p1 < nomp_x11_stratum_patch.diff
