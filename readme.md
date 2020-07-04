@@ -1,4 +1,5 @@
 For New SHA/X11/OTHERS u18
+______________________________________________________
 
 git clone https://github.com/ftresfi/nompix-18.git nomp
 
@@ -10,10 +11,14 @@ swapon /mnt/myswap.swap
 
 nano /etc/fstab
 
+______________________________________________________
+
+
 paste this *************
 
 /mnt/myswap.swap none swap sw 0 0
 
+______________________________________________________
 
 
 cd nomp
@@ -36,10 +41,10 @@ sudo ufw allow 8032/tcp
 
 sudo node init.js
 
+______________________________________________________
 
-
-******************
 OLD VERSION NOMPIX11 u16
+______________________________________________________
 
 sudo apt install npm
 
