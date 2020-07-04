@@ -1,3 +1,5 @@
+For New SHA/X11/OTHERS
+
 git clone https://github.com/ftresfi/nompix-18.git nomp
 
 dd if=/dev/zero of=/mnt/myswap.swap bs=1M count=4000
@@ -37,7 +39,7 @@ sudo node init.js
 
 
 ******************
-OLD VERSION NOMPIX11
+OLD VERSION NOMPIX11 u16
 
 sudo apt install npm
 
