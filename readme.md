@@ -32,8 +32,31 @@ sudo ufw allow 3031/tcp
 
 sudo ufw allow 8032/tcp
 
-
 sudo node init.js
+
+
+
+******************
+OLD NOMPIX11
+
+sudo apt install npm
+
+sudo npm install posix
+
+curl https://raw.githubusercontent.com/creationix/nvm/v0.16.1/install.sh | sh
+
+source ~/.profile
+
+nvm install 0.10.25
+
+nvm use 0.10.25
+
+******************
+
+killall node
+
+
+
 
 
 
