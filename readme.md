@@ -1,4 +1,4 @@
-For New SHA/X11/OTHERS
+For New SHA/X11/OTHERS u18
 
 git clone https://github.com/ftresfi/nompix-18.git nomp
 
