@@ -26,6 +26,14 @@ after
 
 cd $HOME/nomp
 
+sudo ufw allow 3030/tcp
+
+sudo ufw allow 3031/tcp
+
+sudo ufw allow 8032/tcp
+
 
 sudo node init.js
+
+
 
