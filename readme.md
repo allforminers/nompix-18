@@ -1,7 +1,7 @@
 For New SHA/X11/OTHERS u18
 ______________________________________________________
 
-git clone https://github.com/ftresfi/nompix-18.git nomp
+git clone https://github.com/allforminers/nompix-18.git nomp
 
 dd if=/dev/zero of=/mnt/myswap.swap bs=1M count=4000
 
