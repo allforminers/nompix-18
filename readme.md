@@ -37,7 +37,7 @@ sudo node init.js
 
 
 ******************
-OLD NOMPIX11
+OLD VERSION NOMPIX11
 
 sudo apt install npm
 
