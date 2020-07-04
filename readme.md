@@ -1,4 +1,4 @@
-git clone https://github.com/ftresfi/nompix18.git nomp
+git clone https://github.com/ftresfi/nompix-18.git nomp nomp
 
 dd if=/dev/zero of=/mnt/myswap.swap bs=1M count=4000
 
