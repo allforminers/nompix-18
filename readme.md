@@ -23,6 +23,8 @@ ______________________________________________________
 
 cd nomp
 
+unzip nompix-18.zip
+
 apt install npm -y
 
 npm update
