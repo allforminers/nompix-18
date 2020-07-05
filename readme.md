@@ -1,4 +1,4 @@
-For New SHA/X11/OTHERS u18
+For New  u18
 ______________________________________________________
 
 git clone https://github.com/allforminers/nompix-18.git nomp
