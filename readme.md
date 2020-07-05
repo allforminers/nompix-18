@@ -43,35 +43,10 @@ sudo node init.js
 
 ______________________________________________________
 
-OLD VERSION NOMPIX11 u16
-______________________________________________________
-
-sudo apt install npm -y
-
-sudo npm install posix -y
-
-curl https://raw.githubusercontent.com/creationix/nvm/v0.16.1/install.sh | sh
-
-source ~/.profile
-
-nvm install 0.10.25
-
-nvm use 0.10.25
 
 -------------------
 killall node
 -------------------
-
-______________________________________________________
-RUN
-
-nvm use 0.10.25
-
-npm rebuild
-
-npm update
-
-node init.js
 
 ______________________________________________________
 
