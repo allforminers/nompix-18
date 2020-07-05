@@ -37,7 +37,7 @@ unzip nompix-18.zip
 
 apt install npm -y
 
-npm update
+npm update -y
 
 patch -p1 < nomp_x11_stratum_patch.diff
 
