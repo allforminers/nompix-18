@@ -1,6 +1,8 @@
 For New  u18
 ______________________________________________________
 
+apt install git -y
+
 git clone https://github.com/allforminers/nompix-18.git nomp
 
 dd if=/dev/zero of=/mnt/myswap.swap bs=1M count=4000
