@@ -57,6 +57,8 @@ sudo bash install.sh
 
 ______________________________________________________
 
+chmod -R 777 nomp
+
 cd nomp
 
 unzip nompix-18.zip
