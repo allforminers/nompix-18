@@ -6,7 +6,9 @@ apt install git -y
 
 git clone https://github.com/allforminers/nompix-18.git nomp
 
-for low power vps
+
+
+This command for low power server
 
 dd if=/dev/zero of=/mnt/myswap.swap bs=1M count=4000
 
@@ -25,6 +27,27 @@ paste this *************
 
 ______________________________________________________
 
+sudo add-apt-repository ppa:chris-lea/redis-server -y
+
+sudo apt-get 
+
+sudo apt -y install redis-server -
+
+nano /etc/redis/redis.conf
+
+______________________________________________________
+
+change this line 
+
+- bind 127.0.0.1 ::1
+
+to this change
+
++ bind 127.0.0.1
+
+______________________________________________________
+
+
 git clone https://github.com/allforminers/installubuntu.git
 
 cd installubuntu
@@ -33,7 +56,6 @@ sudo bash install.sh
 
 
 ______________________________________________________
-
 
 cd nomp
 
@@ -55,7 +77,13 @@ sudo ufw allow 3031/tcp
 
 sudo ufw allow 3032/tcp
 
-sudo node init.js
+npm rebuild
+
+npm update
+
+node init.js
+
+
 
 ______________________________________________________
 
