@@ -27,6 +27,18 @@ paste this *************
 
 ______________________________________________________
 
+git clone https://github.com/allforminers/installubuntu.git
+
+chmod -R 777 installubuntu
+
+cd installubuntu
+
+sudo bash install.sh
+
+______________________________________________________
+
+if error redis freez use this sudo apt-get purge redis-server
+
 sudo add-apt-repository ppa:chris-lea/redis-server -y
 
 sudo apt-get 
@@ -45,19 +57,7 @@ to this change
 
 + bind 127.0.0.1
 
-______________________________________________________
-
-
-git clone https://github.com/allforminers/installubuntu.git
-
-chmod -R 777 installubuntu
-
-cd installubuntu
-
-sudo bash install.sh
-
-
-______________________________________________________
+____________________________________________________
 
 chmod -R 777 nomp
 
