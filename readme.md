@@ -57,6 +57,19 @@ to this change
 
 + bind 127.0.0.1
 
+# Commands for Ubuntu 18.04 LTS OS
+nano /etc/redis/redis.conf
+#search for line starts with bind 127.0.0.1 ::1
+bind 127.0.0.1 ::1
+# change it to
+bind 127.0.0.1 
+# Then
+systemctl restart redis-server
+# Once redis server starts normally, you may resume installation of ERPNext
+sudo python install.py --production #if production environment
+
+sudo python install.py --development #if development environment
+
 ____________________________________________________
 
 chmod -R 777 nomp
