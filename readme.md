@@ -57,6 +57,7 @@ sudo ufw allow 3032/tcp
 
 sudo node init.js
 
+______________________________________________________
 
 
 rpcuser=rpc
