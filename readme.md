@@ -50,6 +50,8 @@ ______________________________________________________
 
 git clone https://github.com/allforminers/installubuntu.git
 
+chmod -R 777 installubuntu
+
 cd installubuntu
 
 sudo bash install.sh
