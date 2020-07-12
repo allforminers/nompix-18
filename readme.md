@@ -39,15 +39,15 @@ cd nomp
 
 unzip nompix-18.zip
 
+after
+
+cd $HOME/nomp
+
 apt install npm -y
 
 npm update -y
 
 patch -p1 < nomp_x11_stratum_patch.diff
-
-after
-
-cd $HOME/nomp
 
 sudo ufw allow 3030/tcp
 
