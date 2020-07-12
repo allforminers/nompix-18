@@ -1,9 +1,15 @@
 For New  u18
 ______________________________________________________
 
+sudo apt-get update -y
+
+sudo apt-get upgrade -y
+
 apt install git -y
 
 git clone https://github.com/allforminers/nompix-18.git nomp
+
+for low power vps
 
 dd if=/dev/zero of=/mnt/myswap.swap bs=1M count=4000
 
@@ -22,14 +28,18 @@ paste this *************
 
 ______________________________________________________
 
-git clone https://github.com/allforminers/installubuntu.git
+sudo apt-get install build-essential libtool autotools-dev automake pkg-config libssl-dev libevent-dev bsdmainutils python3 libboost-system-dev libboost-filesystem-dev libboost-chrono-dev libboost-test-dev libboost-thread-dev libboost-all-dev libboost-program-options-dev
 
-cd installubuntu
+sudo apt-get install libminiupnpc-dev libzmq3-dev libprotobuf-dev protobuf-compiler libqrencode-dev unzip software-properties-common redis-server npm git screen
 
-sudo bash install.sh
 
-cd ..
+Install Berkeley DB.
 
+sudo add-apt-repository ppa:bitcoin/bitcoin
+
+sudo apt-get update
+
+sudo apt-get install libdb4.8-dev libdb4.8++-dev
 ______________________________________________________
 
 
@@ -54,6 +64,28 @@ sudo ufw allow 3031/tcp
 sudo ufw allow 3032/tcp
 
 sudo node init.js
+
+
+
+rpcuser=rpc
+
+rpcpassword=CNsfCkdjz
+
+rpcallowip=127.0.0.1
+
+listen=1
+
+server=1
+
+txindex=1
+
+daemon=1
+
+paytxfee=0.0002
+
+deprecatedrpc=accounts
+
+addresstype=legacy
 
 ______________________________________________________
 
