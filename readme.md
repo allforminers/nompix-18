@@ -1,4 +1,4 @@
-For New  u18
+# For New  u18
 ______________________________________________________
 
 
@@ -21,7 +21,7 @@ nano /etc/fstab
 ______________________________________________________
 
 
-paste this *************
+# paste this *************
 
 /mnt/myswap.swap none swap sw 0 0
 
@@ -37,7 +37,7 @@ sudo bash install.sh
 
 ______________________________________________________
 
-if error redis freez use this sudo apt-get purge redis-server
+# if error redis freez use this sudo apt-get purge redis-server
 
 sudo add-apt-repository ppa:chris-lea/redis-server -y
 
