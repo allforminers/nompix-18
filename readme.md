@@ -31,7 +31,7 @@ sudo add-apt-repository ppa:chris-lea/redis-server -y
 
 sudo apt-get 
 
-sudo apt -y install redis-server -
+sudo apt -y install redis-server -y
 
 nano /etc/redis/redis.conf
 
