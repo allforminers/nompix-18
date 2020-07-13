@@ -21,7 +21,7 @@ nano /etc/fstab
 ______________________________________________________
 
 
-# paste this *************
+# paste this 
 
 /mnt/myswap.swap none swap sw 0 0
 
