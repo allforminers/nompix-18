@@ -9,6 +9,7 @@ sudo git clone https://github.com/allforminers/nompix-18.git nomp
 
 
 # This command for low power server
+______________________________________________________
 
 dd if=/dev/zero of=/mnt/myswap.swap bs=1M count=4000
 
@@ -35,7 +36,7 @@ sudo apt-get install build-essential libtool autotools-dev automake pkg-config l
 
 sudo apt-get install libminiupnpc-dev libzmq3-dev libprotobuf-dev protobuf-compiler libqrencode-dev unzip software-properties-common npm git screen -y
 
-sudo add-apt-repository ppa:bitcoin/bitcoin
+sudo add-apt-repository ppa:bitcoin/bitcoin -y
 
 
 sudo apt-get update
@@ -53,6 +54,7 @@ sudo apt -y install redis-server -y
 nano /etc/redis/redis.conf
 
 #change this line 
+______________________________________________________
 
 - bind 127.0.0.1 ::1
 
@@ -61,13 +63,18 @@ to this change
 + bind 127.0.0.1
 
 #save file ctrl+x
+______________________________________________________
+
+
 
 
 # if error redis freez use this sudo 
+______________________________________________________
+
+
 apt-get purge redis-server
 
-______________________________________________________
- 
+
 chmod -R 777 nomp
 
 cd nomp
@@ -75,6 +82,7 @@ cd nomp
 unzip nompix-18.zip
 
 #after
+______________________________________________________
 
 cd $HOME/nomp
 
@@ -91,6 +99,12 @@ sudo ufw allow 3031/tcp
 sudo ufw allow 3032/tcp
 
 
+#reboot server + change ip config.json +coin setting
+______________________________________________________
+
+cd nomp
+
+screen
 
 npm rebuild
 
@@ -126,11 +140,13 @@ addresstype=legacy
 ______________________________________________________
 
 
--------------------
-killall node
--------------------
 
+
+
+#killall node
 ______________________________________________________
+
+
 
 
 
