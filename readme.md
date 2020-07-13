@@ -4,7 +4,7 @@ ______________________________________________________
 
 apt install git -y
 
-git clone https://github.com/allforminers/nompix-18.git nomp
+sudo git clone https://github.com/allforminers/nompix-18.git nomp
 
 
 
