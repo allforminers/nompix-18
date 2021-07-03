@@ -53,6 +53,12 @@ sudo apt -y install redis-server -y
 
 nano /etc/redis/redis.conf
 
+or
+
+sudo apt update
+
+sudo apt install redis-server
+
 #change this line 
 ______________________________________________________
 
